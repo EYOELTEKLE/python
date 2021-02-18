@@ -1,0 +1,10 @@
+#the program reverses a list and stores it in a new list 
+list = [1,2,3,4,5]
+
+swap = []
+rang = len(list)-1
+j = 0
+for i in range(rang,-1,-1):
+    swap.insert(j,list[i])
+    j = j + 1
+print(swap)
